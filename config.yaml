@@ -1,0 +1,14 @@
+arch:
+- armv7
+- amd64
+- i386
+description: DNS
+image: mvance/unbound:latest
+init: false
+name: unbound
+ports:
+  5353/tcp: 53
+  5353/udp: 53
+slug: unbound
+url: https://hub.docker.com/r/mvance/unbound
+version: v1.12.0
